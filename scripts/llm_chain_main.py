@@ -31,7 +31,7 @@ from langchain.chains import RetrievalQA
 from openai import OpenAI
 import pickle
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 client = OpenAI()
 retrieve_fine_tuned = client.fine_tuning.jobs.retrieve("ftjob-eFMucjOZST24lrljjLteWie8")
